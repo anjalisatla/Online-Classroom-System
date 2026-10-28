@@ -1,0 +1,24 @@
+header {
+  width: 90%;
+  height: 70px;
+  background: linear-gradient(120deg, rgb(230,214,96), rgb(189,131,224));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 7rem;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.components a {
+  padding-left: 2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(246, 38, 207);
+}
